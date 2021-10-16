@@ -1,7 +1,7 @@
 package com.bridgelabs;
 
 public class BubbleSort {
-	static int MAX = 100;
+	
 	  public static void sortStrings(String[] arr, int n){
 	        String temp;
 	        for (int j = 0; j < n - 1; j++){
