@@ -41,7 +41,7 @@ public class Permutation {
 
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
-		System.out.println("Enter a ssstring to return its permutation : ");
+		System.out.println("Enter a string to return its permutation : ");
 		String string = scan.next();
 		solution(string);
 	}
