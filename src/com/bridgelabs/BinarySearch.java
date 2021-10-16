@@ -10,7 +10,13 @@ import java.util.ArrayList;
  *
  */
 public class BinarySearch<T extends Comparable<T>>{
-	
+		
+	/**
+	 * 
+	 * @param arr
+	 * @param x
+	 * @return
+	 */
 		public int binarySearch(T[] arr, T x) {
 			int left = 0, right = arr.length - 1;
 			 while (left <= right) {
