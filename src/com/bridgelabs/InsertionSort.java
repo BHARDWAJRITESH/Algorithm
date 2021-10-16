@@ -24,7 +24,7 @@ public class InsertionSort {
 
 	public static void main(String[] args) {
 		String[] arr = {"ritesh","mukesh","vaibhav","yash","happy"};
-//		sort(arr);
+		sort(arr);
 		printArray(arr);
 	}
 }
