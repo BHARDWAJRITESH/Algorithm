@@ -3,6 +3,12 @@ package com.bridgelabs;
 import java.util.Arrays;
 
 public class Anagram {
+	/**
+	 * this method checks if two strings are anagram
+	 * @param string1
+	 * @param string2
+	 * @return
+	 */
 	static boolean isAnagramSort(String string1, String string2) {
 			if (string1.length() != string2.length()) {
 				return false;
@@ -14,7 +20,10 @@ public class Anagram {
 			Arrays.sort(a2);
 			return Arrays.equals(a1, a2);
 	}
-
+		/**
+		 * 
+		 * @param args
+		 */
 		public static void main(String[] args) {
 			String s1 = "ritesh";
 			String s2 = "iesthr";
